@@ -7472,7 +7472,7 @@ body {
 
 .body-container {
   background-color: white !important;
-  padding: 36px !important; }
+  padding: 12px; }
 
 hr {
   max-width: 66%;
@@ -7541,7 +7541,7 @@ p.about-body {
   text-align: left; }
 
 .about-headshot {
-  max-width: 300px;
+  width: 300px;
   border-radius: 2%;
   -webkit-box-shadow: rgba(10, 10, 10, 0.1) 0px 5px 16px;
           box-shadow: rgba(10, 10, 10, 0.1) 0px 5px 16px; }
@@ -7578,3 +7578,14 @@ footer.footer {
   padding: 12px; }
   footer.footer * {
     color: white; }
+
+@media only screen and (max-width: 770px) {
+  .body-container {
+    padding: 0;
+    max-width: 100vw !important; }
+
+  .hero-title {
+    font-size: 64px; }
+
+  .hero-subtitle {
+    font-size: 32px; } }
