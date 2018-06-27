@@ -7481,11 +7481,13 @@ hr {
 a {
   color: #333; }
 
+ul {
+  list-style: disc; }
+
 .navbar {
   position: fixed;
   width: 100%;
-  top: -100px;
-  padding: 12px;
+  top: 0px;
   -webkit-box-shadow: rgba(10, 10, 10, 0.1) 0px 5px 16px;
           box-shadow: rgba(10, 10, 10, 0.1) 0px 5px 16px;
   font-weight: 200;
@@ -7521,7 +7523,8 @@ a {
     color: #333; }
 
 .hero {
-  position: relative; }
+  position: relative;
+  top: 64px; }
 
 .border {
   border: 1px solid red; }
@@ -7579,6 +7582,12 @@ footer.footer {
   footer.footer * {
     color: white; }
 
+.box {
+  margin: 24px; }
+
+#graphics {
+  left: 25%; }
+
 @media only screen and (max-width: 770px) {
   .body-container {
     padding: 0;
@@ -7588,4 +7597,7 @@ footer.footer {
     font-size: 64px; }
 
   .hero-subtitle {
-    font-size: 32px; } }
+    font-size: 32px; }
+
+  #graphics {
+    left: 0; } }
